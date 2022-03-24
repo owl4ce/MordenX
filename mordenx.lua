@@ -1,9 +1,15 @@
--- mpv-osc-morden by maoiscat
--- email:valarmor@163.com
+-- Material MPV On-Screen-Controller
+-- Fork: Uses custom Material IcoMoon glyphs.
+
+-- Original by maoiscat
+-- Email: valarmor@163.com
 -- https://github.com/maoiscat/mpv-osc-morden
 
--- fork by cyl0
--- https://github.com/cyl0/MordenX/
+-- Fork by cyl0
+-- https://github.com/cyl0/MordenX
+
+-- Fork by owl4ce
+-- https://github.com/owl4ce/material-osc
 
 local assdraw = require 'mp.assdraw'
 local msg = require 'mp.msg'
@@ -58,24 +64,24 @@ local user_opts = {
 
 -- Icons for jump button depending on jumpamount 
 local jumpicons = { 
-    [5] = {'\xEF\x8E\xB1', '\xEF\x8E\xA3'}, 
-    [10] = {'\xEF\x8E\xAF', '\xEF\x8E\xA1'}, 
-    [30] = {'\xEF\x8E\xB0', '\xEF\x8E\xA2'}, 
-    default = {'\xEF\x8E\xB2', '\xEF\x8E\xB2'}, -- second icon is mirrored in layout() 
+    [5] = {'\xEE\xA4\xBD', '\xEE\xA4\xBA'}, 
+    [10] = {'\xEE\xA4\xBB', '\xEE\xA4\xB8'}, 
+    [30] = {'\xEE\xA4\xBC', '\xEE\xA4\xB9'}, 
+    default = {'\xEE\xA4\xA5', '\xEE\xA4\xA5'}, -- second icon is mirrored in layout() 
 } 
 
 local icons = {
-  previous = '\xEF\x8E\xB5',
-  next = '\xEF\x8E\xB4',
-  play = '\xEF\x8E\xAA',
-  pause = '\xEF\x8E\xA7',
-  backward = '\xEF\x8E\xA0',
-  forward = '\xEF\x8E\x9F',
-  audio = '\xEF\x8E\xB7',
-  sub = '\xEF\x8F\x93',
-  minimize = '\xEF\x85\xAC',
-  fullscreen = '\xEF\x85\xAD',  
-  info = '',
+  previous = '\xEE\xA4\xA8',
+  next = '\xEE\xA4\xA7',
+  play = '\xEE\xA4\x9A',
+  pause = '\xEE\xA4\x9D',
+  backward = '\xEE\xA4\x8B',
+  forward = '\xEE\xA4\x8A',
+  audio = '\xEE\xA4\xAC',
+  sub = '\xEE\xA4\x87',
+  minimize = '\xEE\xAD\x96',
+  fullscreen = '\xEE\xAD\x97',
+  info = '\xEE\xA4\x81',
 }
 
 -- Localization
