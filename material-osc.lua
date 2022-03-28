@@ -73,14 +73,14 @@ local jumpicons = {
 local icons = {
   previous = '\xEE\xA4\xA8',
   next = '\xEE\xA4\xA7',
-  play = '\xEE\xA4\x9A',
-  pause = '\xEE\xA4\x9D',
+  play = '\xEE\xA4\x9D',
+  pause = '\xEE\xA4\x9A',
   backward = '\xEE\xA4\x8B',
   forward = '\xEE\xA4\x8A',
   audio = '\xEE\xA4\xAC',
   sub = '\xEE\xA4\x87',
-  minimize = '\xEE\xAD\x96',
-  fullscreen = '\xEE\xAD\x97',
+  minimize = '\xEE\xAD\x97',
+  fullscreen = '\xEE\xAD\x96',
   info = '\xEE\xA4\x81',
 }
 
